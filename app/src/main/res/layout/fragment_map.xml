@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MapFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="From" />
+    <AutoCompleteTextView
+        android:id="@+id/fromInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type in the Location" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Travel mode" />
+    <Spinner
+        android:id="@+id/modeList"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:entries="@array/modes" />
+    <FrameLayout
+        android:id="@+id/map"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

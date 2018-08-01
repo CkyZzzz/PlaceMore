@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CSCI571_HW9</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_results">ResultsActivity</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="title_activity_google">GoogleActivity</string>
+    <string name="latlon_access_required">Latitude and longitude access is required to display the search result.</string>
+    <string name="ok">OK</string>
+    <string name="latlon_permission_not_available">Permission is not available. Requesting location permission.</string>
+    <string name="latlon_permission_denied">Location permission request was denied.</string>
+</resources>

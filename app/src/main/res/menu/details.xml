@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.kaiyuanchen.csci571_hw9.DetailsActivity">
+    <item
+        android:id="@+id/shareIcon"
+        android:icon="@drawable/share"
+        android:title="share"
+        android:orderInCategory="90"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/favoriteIcon"
+        android:icon="@drawable/heart_fill_white"
+        android:title="favorite"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+</menu>

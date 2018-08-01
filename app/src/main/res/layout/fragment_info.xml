@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="1"
+    android:stretchColumns="1"
+    tools:context=".InfoFragment">
+
+    <TableRow android:id="@+id/row0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:textStyle="bold"
+            android:layout_column="0"
+            android:gravity="left|center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="Address"/>
+        <TextView
+            android:id="@+id/infoAddress"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="left|center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_column="1"/>
+    </TableRow>
+
+    <TableRow android:id="@+id/row1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textStyle="bold"
+            android:layout_column="0"
+            android:gravity="left|center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="Phone Number"/>
+        <Button
+            android:id="@+id/infoPhoneNum"
+            android:background="@null"
+            android:autoLink="all"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="left|center_vertical"
+            android:layout_column="1"/>
+    </TableRow>
+
+    <TableRow android:id="@+id/row2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textStyle="bold"
+            android:layout_column="0"
+            android:layout_marginLeft="20dp"
+            android:gravity="left|center_vertical"
+            android:text="Price Level"/>
+        <TextView
+            android:id="@+id/infoPriceLvl"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="left|center_vertical"
+            android:layout_column="1"/>
+    </TableRow>
+
+    <TableRow android:id="@+id/row3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textStyle="bold"
+            android:layout_column="0"
+            android:layout_marginLeft="20dp"
+            android:gravity="left|center_vertical"
+            android:text="Rating"/>
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RatingBar
+                android:id="@+id/infoRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-40dp"
+                android:layout_marginTop="30px"
+                android:isIndicator="true"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:numStars="5"
+                android:stepSize="0.1"
+                android:gravity="left|center_vertical"
+                android:layout_column="1"/>
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow android:id="@+id/row4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:gravity="left|center_vertical"
+            android:layout_column="0"
+            android:text="Google Page"/>
+        <Button
+            android:id="@+id/infoGooglePage"
+            android:background="@null"
+            android:autoLink="all"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="left|center_vertical"
+            android:layout_column="1"/>
+    </TableRow>
+
+    <TableRow android:id="@+id/row5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:gravity="left|center_vertical"
+            android:layout_column="0"
+            android:text="Website"/>
+        <Button
+            android:id="@+id/infoWebsite"
+            android:background="@null"
+            android:autoLink="all"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="left|center_vertical"
+            android:layout_column="1"/>
+    </TableRow>
+
+</TableLayout>
